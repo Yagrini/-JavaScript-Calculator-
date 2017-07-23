@@ -1,0 +1,95 @@
+*{margin:0;
+}
+body{
+	background-color: #ffedd1;
+	text-align: center;
+}
+#all{
+	margin:100px auto;
+	width: 300px;
+	height: 370px;
+	background-color: #3d4260;
+	border-radius: 10px;
+	border : solid 1px #55609f;
+	box-shadow: 3px 3px 10px #000 , inset -1px -4px 10px #666;
+}
+#titre{
+	font-family: Orbitron, sans-serif;
+	color:#DDD;
+	margin-top: 20px;
+}
+#screenbord{
+	background-color: #b2b7d2;
+	width: 85%;
+	margin:20px auto;
+	height: 55px;
+	border : solid 1px #111;
+	border-radius: 5px;
+}
+#disp{
+	text-align:right;
+	font-family: Orbitron, sans-serif;
+	margin-right: 10px;
+	margin-top: 5px;
+  	font-size: 35px;
+}
+#history {
+  text-align:right;
+  height: 10px;
+  margin-bottom: 5px;
+  margin-right: 14px;
+  color: #5a734a;
+  font-size: 10pt;
+}
+#buttons{
+	margin:30px auto;
+}
+button{
+	height: 40px;
+	width: 43px;
+	border-radius: 10px;
+	margin:4px;
+	outline: none;
+	box-shadow: 0px 2px 0px 0px #222121, inset -1px -1px 10px  #515151;
+	background-color:  #131313;
+	color:white;
+	border:1px;
+	font-family: Orbitron, sans-serif;
+	font-weight: bold;
+	font-size: 10pt;
+}
+button:hover{
+  cursor: pointer;
+}
+button:active {
+  transform: translate(0px, 2px);
+  box-shadow: none;
+  border: none;
+}
+button[value="AC"] ,  button[value="CE"]{
+	background-color: #6c1100;
+}
+button[value="0"] ,  button[value="="]{
+	width:98px;
+}
+#end{
+	font-family: 'Josefin Sans', sans-serif;
+	margin-top: 200px;
+	color:#555;
+	font-size: 13pt;
+}
+a{
+	text-decoration: none;
+	color:#f03546;
+}
+a:hover{
+	color:#f16c4d;
+}
+
+
+
+
+
+
+
+
